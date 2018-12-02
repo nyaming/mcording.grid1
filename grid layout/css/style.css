@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+/* 全体 */
+
+html {
+  font-size: 62.5%;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+  background-color: #dee7ec;
+  color: #777;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 1.2rem;
+}
+
+a:link, a:hover, a:active, a:visited {
+  text-decoration: none;
+  color: #7c5119;
+}
+
+/* メニュー */
+.header {
+  width: 180px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 22px;
+  margin-bottom: 4px;
+}
+
+.logo a:hover {
+
+}
+.nav ul {
+  text-align: center;
+}
+
+.nav li {
+  margin: 30px auto;
+}
+
+.nav li a {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+
+/* ボックス */
+.item {
+  width: 180px;
+  margin-bottom: 4px;
+  padding: 8px;
+  border-bottom: 3px solid;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.item-l {
+  width: 732px;
+}
+
+.item-m {
+  width: 364px;
+}
+
+.item .img {
+  display: block;
+  width: 100%;
+}
+
+.item .cate {
+  font-family: "Trebuchet MS", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  letter-spacing: 1px;
+  color: #aaa;
+  margin: 15px 9px 10px;
+}
+
+.item .cate::before {
+  content: "";
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin-right: 5px;
+  border: 2px solid;
+  border-radius: 50%;
+  vertical-align: -5px;
+}
+
+.item .desc {
+  margin: 10px;
+  line-height: 1.5;
+}
+
+.item a {
+  display: block;
+  margin: -8px -8px -11px;
+  padding: 8px 8px 11px;
+  border-radius: inherit;
+  transition: 0.3s;
+  color: #777;
+}
+
+.item a:hover {
+  opacity: 0.8;
+  box-shadow: 0 0 6px -1px rgba(0,0,0,0.3);
+}
+
+.maindish, .maindish .cate::before {
+  border-color: #FFC0CB;
+}
+.appetizer, .appetizer .cate::before {
+  border-color: #76C047;
+}
+.column, .column .cate::before {
+  border-color: #FFF100;
+}
+.breaktime, .breaktime .cate::before {
+  border-color: #C1EFFF;
+}
+
+
+
+/* .text {
+  padding: 15px 18px 12px;
+}
+
+
+.item a {
+  display: inline-block;
+}
+
+.item .cate {
+  color: #aaa;
+  letter-spacing: 1px;
+}
+
+.item .desc {
+  margin-top: 13px;
+  color: #777;
+  line-height: 1.5;
+}
+
+.maindish {
+  box-shadow: 0 3px #FFC0CB;
+} */
