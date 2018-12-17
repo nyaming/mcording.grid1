@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>グリッドレイアウト</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style2.css">
+  </head>
+  <body>
+
+    <section class="box l maindish">
+      <a href="#">
+        <img class="thumbnail" src="images/image_L_1.jpg" alt="メインディッシュ">
+        <div class="cate">MAIN DISH</div>
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </a>
+    </section>
+    <section class="box m appetizer">
+      <a href="#">
+        <img class="thumbnail" src="images/image_M_1.jpg" alt="前菜">
+        <div class="cate">APPETIZER</div>
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+      </a>
+    </section>
+    <section class="box m maindish">
+      <a href="#">
+        <img class="thumbnail" src="images/image_M_2.jpg" alt="メインディッシュ">
+        <div class="cate">MAIN DISH</div>
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </a>
+    </section>
+    <section class="box maindish">
+      <a href="#">
+        <img class="thumbnail" src="images/image_S_1.jpg" alt="メインディッシュ">
+        <div class="cate">MAIN DISH</div>
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </a>
+    </section>
+    <section class="box appetizer">
+      <a href="#">
+        <img class="thumbnail" src="images/image_S_2.jpg" alt="前菜">
+        <div class="cate">APPETIZER</div>
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+      </a>
+    </section>
+    <section class="box m breaktime">
+      <a href="#">
+        <img class="thumbnail" src="images/image_M_3.jpg" alt="おやつの時間">
+        <div class="cate">BREAK TIME</div>
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+      </a>
+    </section>
+    <section class="box column">
+      <a href="#">
+        <img class="thumbnail" src="images/image_S_3.jpg" alt="コラム">
+        <div class="cate">COLUMN</div>
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </a>
+    </section>
+    <section class="box breaktime">
+      <a href="#">
+        <img class="thumbnail" src="images/image_S_4.jpg" alt="おやつの時間">
+        <div class="cate">BREAK TIME</div>
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+      </a>
+    </section>
+    <section class="box maindish">
+      <a href="#">
+        <img class="thumbnail" src="images/image_S_5.jpg" alt="メインディッシュ">
+        <div class="cate">MAIN DISH</div>
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </a>
+    </section>
+    <section class="box breaktime">
+      <a href="#">
+        <img class="thumbnail" src="images/image_S_6.jpg" alt="おやつの時間">
+        <div class="cate">BREAK TIME</div>
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </a>
+    </section>
+    <section class="box maindish">
+      <a href="#">
+        <img class="thumbnail" src="images/image_S_7.jpg" alt="メインディッシュ">
+        <div class="cate">MAIN DISH</div>
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </a>
+    </section>
+    <section class="box breaktime">
+      <a href="#">
+        <img class="thumbnail" src="images/image_S_8.jpg" alt="おやつの時間">
+        <div class="cate">BREAK TIME</div>
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+      </a>
+    </section>
+    <section class="box m appetizer">
+      <a href="#">
+        <img class="thumbnail" src="images/image_M_4.jpg" alt="前菜">
+        <div class="cate">APPETIZER</div>
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+      </a>
+    </section>
+    <section class="box column">
+      <a href="#">
+        <img class="thumbnail" src="images/image_S_9.jpg" alt="コラム">
+        <div class="cate">COLUMN</div>
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </a>
+    </section>
+    <section class="box maindish">
+      <a href="#">
+        <img class="thumbnail" src="images/image_S_10.jpg" alt="メインディッシュ">
+        <div class="cate">MAIN DISH</div>
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </a>
+    </section>
+
+
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script>
+      var msnry = new Masonry( 'body', {
+        itemSelector: '.box',
+        columnWidth: 180,
+        gutter: 4
+      });
+    </script>
+  </body>
+</html>
