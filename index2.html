@@ -7,6 +7,24 @@
     <link rel="stylesheet" href="css/style2.css">
   </head>
   <body>
+    <header class="header box">
+      <h1>
+        <a href="#"><img  class="logo" src="images/logo.png" alt="Sample Site 2"></a>
+      </h1>
+
+      <nav class="nav">
+        <ul>
+          <li class="nav-item"><a href="#">HOME</a></li>
+          <li class="nav-item"><a href="#">ABOUT</a></li>
+          <li class="nav-item"><a href="#">MAIN DISH</a></li>
+          <li class="nav-item"><a href="#">APPETIZER</a></li>
+          <li class="nav-item"><a href="#">BREAK TIME</a></li>
+          <li class="nav-item"><a href="#">COLUMN</a></li>
+          <li class="nav-item"><a href="#">OTHER</a></li>
+        </ul>
+      </nav>
+
+    </header>
 
     <section class="box l maindish">
       <a href="#">
@@ -115,13 +133,15 @@
     </section>
 
 
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
     <script>
+    window.onload = function(){
       var msnry = new Masonry( 'body', {
         itemSelector: '.box',
         columnWidth: 180,
         gutter: 4
       });
-    </script>
+    }
+    </script> -->
   </body>
 </html>

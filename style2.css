@@ -3,7 +3,6 @@
 /* -----------------------------------------------------
 全体の設定
 -----------------------------------------------------*/
-
 html {
   font-size: 62.5%;
 }
@@ -26,12 +25,12 @@ a:link, a:hover, a:active, a:visited {
 }
 
 
+
 /* -----------------------------------------------------
 ボックスの設定
 -----------------------------------------------------*/
 .box {
   width: 180px;
-  height: auto;
   padding: 8px;
   border-bottom: 3px solid;
   border-radius: 5px;
@@ -42,14 +41,23 @@ a:link, a:hover, a:active, a:visited {
 .box .thumbnail {
   display: block;
   width: 100%;
+  height: 109px;
 }
 
 .m {
   width: 364px;
 }
 
+.m .thumbnail {
+  height: 146px;
+}
+
 .l {
   width: 732px;
+}
+
+.l .thumbnail {
+  height: 403px;
 }
 
 .box .cate {
@@ -93,8 +101,7 @@ a:link, a:hover, a:active, a:visited {
     border-color: green;
 }
 
-
-.box a {
+.box > a {
   display: block;
   margin: -8px -8px -11px;
   padding: 8px 8px 11px;
@@ -102,7 +109,40 @@ a:link, a:hover, a:active, a:visited {
   transition: all 0.3s;
 }
 
-.box a:hover {
+.box > a:hover {
   box-shadow: 0 0 6px -1px rgba(0,0,0,0.3);
   opacity: 0.8;
+}
+
+/* -----------------------------------------------------
+ヘッダー
+-----------------------------------------------------*/
+.header {
+  padding: 25px 0;
+  border-bottom: none;
+  text-align: center;
+}
+
+.header .logo {
+  width: 136px;
+  height: 136px;
+  transition: 0.3s;
+}
+
+.header .logo:hover {
+  -ms-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);.
+  transform: rotate(360deg);
+}
+
+.header .nav {
+  margin: 35px auto 10px;
+}
+
+.header .nav .nav-item {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
 }
